@@ -110,7 +110,7 @@
 
 <div id="map"></div>
 
-<footer>Locations and links sourced from The Blue Alliance. Click a marker for the team's TBA page.</footer>
+<footer>Click on the marker to see their TBA! -shroomayo</footer>
 
 <script>
 // address: set when a specific school/campus address was confirmed.
@@ -212,7 +212,7 @@ const teams = [
 
 const addressed = teams.filter(t => t.address).length;
 document.getElementById('count-label').textContent =
-  teams.length + " teams plotted \u2022 " + addressed + " with a confirmed school address, rest at city level";
+  teams.length + " teams plotted \u2022 " + " See which BAG teams are near you!";
 
 const map = L.map('map').setView([37.55, -122.05], 9);
 
